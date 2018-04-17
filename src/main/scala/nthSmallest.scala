@@ -1,5 +1,9 @@
+
+
 object nthSmallest extends App {
 
-  def greet : String = "hello"
+  def apply(n : Int, numlist : List[Int]) : Int ={
+    numlist(n-1)
+  }
 
 }
